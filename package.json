@@ -1,0 +1,48 @@
+{
+  "name": "cra-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@airbus/graphic-chart": "2.3.20180502+120032.b8f62375",
+    "@material-ui/core": "^3.2.2",
+    "@material-ui/icons": "^3.0.1",
+    "@sm/skywise-react-library": "4.2.20181002100743-297b13c2",
+    "@types/classnames": "^2.2.6",
+    "@types/react-redux": "^5.0.11",
+    "amazon-cognito-auth-js": "^1.1.1",
+    "amazon-cognito-identity-js": "^1.31.0",
+    "aws-amplify": "^0.4.8",
+    "aws4": "^1.7.0",
+    "history": "^4.7.2",
+    "moment": "^2.20.1",
+    "mui-datatables": "^2.0.0-beta-35",
+    "react": "^16.5.2",
+    "react-cognito": "^1.5.4",
+    "react-dom": "^16.5.2",
+    "react-moment": "^0.6.8",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts-ts": "3.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build --env-file=.env",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.5",
+    "@types/node": "^10.12.0",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "tslint": "^5.8.0",
+    "tslint-config-airbnb": "^5.8.0",
+    "tslint-react": "^3.2.0",
+    "tslint-sonarts": "^1.1.1",
+    "typescript": "^3.1.3",
+    "redux-immutable-state-invariant": "1.2.3",
+    "enzyme": "2.2.0"
+  }
+}
